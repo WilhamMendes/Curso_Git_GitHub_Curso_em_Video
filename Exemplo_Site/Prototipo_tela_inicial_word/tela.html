@@ -23,25 +23,37 @@
 </head>
 <body>
 
-    <section class="content">
+    <header>
+        <ul>
+            <li>
+                <input type="submit" value="Opção 1">
+                <input type="submit" value="Opção 2">
+                <input type="submit" value="Opção 3">
+                <input type="submit" value="Opção 4">
+                <input class="field" name="Operacao" placeholder="Pesquisar">
+            </li>
+        </ul>
+    </header>
 
+    <section class="content">
         <div class="prototipo">
 
-            <h3>PROTÓTIPO TELA INICIAL DE WORD</h3>
-            <form class="form" method="POST" action="./email.php">
-                <input class="field" name="Op1" placeholder="Opção 1">
-                <input class="field" name="Op2" placeholder="Opção 2">
-                <textarea class="field" name="mesage" placeholder="DIGITE O TEXTO AQUI!"></textarea>
-                <textarea class="field" name="mesage" placeholder="DIGITE O TEXTO AQUI!"></textarea>
+            <h3>PROTÓTIPO DA TELA INICIAL DE WORD</h3>
+
+            <form class="form" method="POST" action="./prototipo_tela.php">
+                                
+                <li>
+                    <textarea class="field" name="mesage" placeholder="INSIRA UM TEXTO AQUI PARA VERIFICAR E CORRIGIR OS ERROS!"></textarea> 
+                    <textarea class="field" name="mesage" placeholder="TEXTO CORRIGIDO."></textarea>
+
+                </li>
+                
 
                 <input type="submit" value="Analisar">
 
 
             </form>
-
-
-        </div>
-        
+        </div>  
     </section>  
 
 </body>
